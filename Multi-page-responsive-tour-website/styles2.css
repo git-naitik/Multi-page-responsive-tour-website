@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(32, 1, 1);
+    background-color: rgb(246, 210, 216);
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 6vmin;
+    margin-bottom: 20px;
+    background-color: rgb(0, 102, 153);
+    color: white;
+}
+
+h2 {
+    color: #0b0552;
+    font-size: 4vminpx;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 3vmin;
+    margin-bottom: 10px;
+}
+
+ul {
+    font-size: 3vmin;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.book-now {
+    font-size: 3vmin;
+    background-color: rgb(0, 102, 153);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+* {
+    padding: 4px;
+}

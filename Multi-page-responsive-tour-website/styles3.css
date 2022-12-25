@@ -1,0 +1,46 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(204, 249, 234);
+}
+
+.destination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.destination img {
+  width: 45%;
+  height: 210px;
+  border-radius: 10px;
+}
+
+.destination h2 {
+  font-size: 4vmin;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.destination p {
+  font-size: 3vmin;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 5vmin;
+  background-color: rgb(106, 106, 247);
+  color: whitesmoke;
+  text-align: center;
+}
+
+.destination img:hover {
+  transition: transform .2s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+* {
+  padding: 1px;
+}
