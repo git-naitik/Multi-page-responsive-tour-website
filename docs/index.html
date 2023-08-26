@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours Nature Explorers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Tours Nature Explorers</h1>
+        <ul class="nav-links">
+            <li><a class="active" href="#" target="_parent">Home</a></li>
+            <li><a href="tour.html" target="_blank">Tour Info</a></li>
+            <li><a href="explore.html" target="_blank">Explore</a></li>
+            <li><a class="ctn" href="contactUS.html">Contact Us</a></li>
+        </ul>
+        <img src="menu.png" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the Colourful World</h2>
+            <div class="line"> </div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="LogIN.html" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!--Events-->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="everest.webp">
+                <h4>Everest Camp Trekking</h4>
+                <p>The trek to Everest Base Camp is among the most dramatic and picturesque in the Himalaya. The scenery
+                    is varied and spectacular, the lodgings and tracks are of a very high standard, and the interaction
+                    with the local Sherpa people is truly memorable.</p>
+                <a class="ctn" href="LogIN.html">Learn More</a>
+            </div>
+            <div class="column">
+                <img src="scuba2.jpg">
+                <h4>Scuba Diving</h4>
+                <p>70% of the world consists of water – why only explore 30%? Find underwater marine life you have never
+                    witnessed with you own eyes before! Being able to take part in this world, to see all of these fish
+                    in their natural habitat is an experience you will never forget.</p>
+                <a class="ctn" href="LogIN.html">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>“Travel is fatal to prejudice, bigotry, and narrow mindedness, and many of our people need it sorely on
+                these accounts.” ~ Mark Twain</p>
+            <a href="LogIN.html" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="content-column">
+                <h1>UPCOMING TOURS & DESTINATIONS</h1>
+                <div class="line"></div>
+                <p>With a world full of fascinating destinations, choosing the perfect place for vacation can be a
+                    little challenging. But we take care of all your niggling travel worries. We offer an extensive
+                    range of both standard and customized deals on world tour packages for most destinations across the
+                    globe like Norway, Switzerland, Ghana, Bhutan and much more! Stay tuned for more updates!</p>
+            </div>
+            <div class="image-column">
+                <div class="image-gallery">
+                    <img src="img1.jpg">
+                    <img src="img2.jpg">
+                    <img src="img3.webp">
+                    <img src="img4.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Station Gate, Noida, New Delhi, India | Phone : 011-21242122 | Email : tours@natureexplorers.com</p>
+        <p>Copyright © Tours Nature Explorers</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
